@@ -8,7 +8,7 @@
   ],
   "dialogues": [
     {
-      "dialogueLine": "Want to continue?",
+      "dialogueLine": "Want to continue? (Digite yes ou no)",
       "possibleResponses": [
         {
           "response": "yes",

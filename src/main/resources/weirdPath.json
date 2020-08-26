@@ -8,7 +8,7 @@
   ],
   "dialogues": [
     {
-      "dialogueLine": "Oh shoot! You meant to leave right?",
+      "dialogueLine": "Oh shoot! You meant to leave right? (Digite yes)",
       "possibleResponses": [
         {
           "response": "yes",
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "dialogueLine": "Well, goodbye then!",
+      "dialogueLine": "Well, goodbye then! (Digite bye)",
       "possibleResponses": [
         {
           "response": "bye",

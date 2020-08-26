@@ -6,7 +6,7 @@
   ],
   "dialogues": [
     {
-      "dialogueLine": "You have left the game, goodbye stranger.",
+      "dialogueLine": "You have left the game, goodbye stranger. (Aqui pode parar o processo)",
       "possibleResponses": [
 
       ]
