@@ -1,0 +1,36 @@
+{
+  "sceneName": "testeScene",
+  "sceneLocation": "MyRoom",
+  "npcsInLocation": [
+    "Gabriel",
+    "Menino",
+    "Diego"
+  ],
+  "dialogues": [
+    {
+      "dialogueLine": "Want to continue?",
+      "possibleResponses": [
+        {
+          "response": "yes",
+          "continueDialogueOnFile": true,
+          "pathToFollow": ""
+        },
+        {
+          "response": "no",
+          "continueDialogueOnFile": false,
+          "pathToFollow": "weirdPath.json"
+        }
+      ]
+    },
+    {
+      "dialogueLine": "Oh! Well, goodbye then!",
+      "possibleResponses": [
+        {
+          "response": "*",
+          "continueDialogueOnFile": true,
+          "pathToFollow": "endGame.json"
+        }
+      ]
+    }
+  ]
+}
