@@ -1,6 +1,7 @@
 package dto;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 
 public class SceneDefinitionDTO {
@@ -33,8 +34,8 @@ public class SceneDefinitionDTO {
         return sceneLocation;
     }
 
-    public List<String> getNpcsInLocation() {
-        return npcsInLocation;
+    public String getNpcsInLocation() {
+        return String.join(", ", npcsInLocation);
     }
 
     public List<DialogueDTO> getDialogues() {

@@ -1,6 +1,6 @@
 {
-  "sceneName": "testeScene",
-  "sceneLocation": "MyRoom",
+  "sceneName": "WeirdPath",
+  "sceneLocation": "The light",
   "npcsInLocation": [
     "Gabriel",
     "Menino",
@@ -8,26 +8,21 @@
   ],
   "dialogues": [
     {
-      "dialogueLine": "Want to continue?",
+      "dialogueLine": "Oh shoot! You meant to leave right?",
       "possibleResponses": [
         {
           "response": "yes",
           "continueDialogueOnFile": true,
           "pathToFollow": ""
-        },
-        {
-          "response": "no",
-          "continueDialogueOnFile": false,
-          "pathToFollow": "weirdPath.json"
         }
       ]
     },
     {
-      "dialogueLine": "Oh! Well, goodbye then!",
+      "dialogueLine": "Well, goodbye then!",
       "possibleResponses": [
         {
-          "response": "yes",
-          "continueDialogueOnFile": true,
+          "response": "bye",
+          "continueDialogueOnFile": false,
           "pathToFollow": "endGame.json"
         }
       ]

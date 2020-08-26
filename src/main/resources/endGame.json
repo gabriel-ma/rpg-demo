@@ -1,0 +1,15 @@
+{
+  "sceneName": "endGame",
+  "sceneLocation": "The dark",
+  "npcsInLocation": [
+
+  ],
+  "dialogues": [
+    {
+      "dialogueLine": "You have left the game, goodbye stranger.",
+      "possibleResponses": [
+
+      ]
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+import dto.SceneDefinitionDTO;
+
 import java.io.IOException;
 
 public class GameInitializer {
@@ -6,7 +8,9 @@ public class GameInitializer {
         GameFileReader fileReader = new GameFileReader();
 
         try {
-            System.out.println(fileReader.readFileIntoObject("mainFile.json").toString());
+            SceneDefinitionDTO sceneDefinitionDTO = fileReader.readFileIntoObject("mainFile.json");
+
+            GameRunner.getInstance().run(sceneDefinitionDTO);
         } catch (IOException e) {
             e.printStackTrace();
         }
