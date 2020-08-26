@@ -16,10 +16,10 @@ public class SceneRunner {
     }
 
     public void run() {
-        System.out.println("You are at " + sceneDefinitionDTO.getSceneLocation());
-        System.out.println(sceneDefinitionDTO.getNpcsInLocation() + " are following you.");
+        System.out.println((char)27 +"[33mYou are at " + sceneDefinitionDTO.getSceneLocation());
+        System.out.println((char)27 + "[31m"+ sceneDefinitionDTO.getNpcsInLocation() + " are in the room.");
         for (DialogueDTO dialogue : sceneDefinitionDTO.getDialogues()) {
-            System.out.println(dialogue.getDialogueLine());
+            System.out.println((char)27 + "[39m"+ dialogue.getDialogueLine());
             String response = in.nextLine();
             Optional<ResponseDTO> first = dialogue.getPossibleResponses()
                     .stream()
